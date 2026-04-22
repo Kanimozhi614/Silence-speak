@@ -1,0 +1,102 @@
+.sign-to-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(205, 30, 30, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.start-webcam-button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-webcam-button:hover {
+  background-color: #0056b3;
+}
+
+.captured-image-container {
+  margin: 10px 0;
+  text-align: center;
+}
+.retake-image-button{
+  align-items: center;
+}
+.captured-image {
+  max-width: 100%;
+  align-items: center;
+  height: auto;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-output-container {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 500px; /* Adjust as needed */
+}
+
+.text-output {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 25px;
+  resize: none;
+  transition: border-color 0.3s ease;
+}
+
+.text-output:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+.text-output::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+.retake-image-button {
+  margin-top: 20px; /* Space above the button */
+  padding: 10px 20px;
+  background-color:green; /* Red background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.retake-image-button:hover {
+  background-color: #d32f2f; /* Darker shade on hover */
+}
+
+.captured-image-container {
+  margin: 20px 0;
+  text-align: center; /* Center align text */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}

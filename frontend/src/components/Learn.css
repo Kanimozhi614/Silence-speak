@@ -1,0 +1,37 @@
+/* src/components/Learn.css */
+.learn-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 20px; /* Space between grid items */
+    margin-bottom: 20px; /* Space below the grid */
+}
+
+.word-item {
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center; /* Center the items */
+}
+
+.large-image {
+    width: 80px; /* Set a larger width for the images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.finish-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745; /* Bootstrap success color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.finish-btn:hover {
+    background-color: #218838; /* Darker shade on hover */
+}

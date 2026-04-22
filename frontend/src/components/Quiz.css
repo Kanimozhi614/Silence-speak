@@ -1,0 +1,47 @@
+/* src/components/Quiz.css */
+.quiz-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.options-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.option-item {
+    margin: 10px 0;
+}
+
+.option-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.option-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.next-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Bootstrap success color */
+    color: white;
+    cursor: pointer;
+}
+
+.next-btn:hover {
+    background-color: #218838; /* Darker shade on hover */
+}

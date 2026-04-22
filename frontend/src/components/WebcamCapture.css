@@ -1,0 +1,48 @@
+.webcam-capture-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.video-wrapper {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.webcam-video {
+    width: 400px;  /* Adjust width as necessary */
+    height: 300px; /* Adjust height as necessary */
+    border-radius: 8px;
+    object-fit: cover; /* Ensures the video fills the container properly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.start-button,
+.capture-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover,
+.capture-button:hover {
+    background-color: #45a049;
+}
+
+.start-button:focus,
+.capture-button:focus {
+    outline: none;
+}
+
+h2 {
+    color: #333;
+}

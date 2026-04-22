@@ -1,0 +1,54 @@
+/* src/components/SignLanguageLearning.css */
+
+.learning-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-container {
+     /* Background image */
+    background-size: cover; /* Cover the entire container */
+    padding: 40px;
+    border-radius: 10px;
+    color: #fff; /* Text color */
+    position: relative; /* Position for pseudo-element */
+}
+
+.introduction {
+    background-color:rgb(11, 92, 163); /* Dark overlay for better text visibility */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.introduction h2, .introduction h3 {
+    color: #ffd700; /* Gold color for headings */
+}
+
+.introduction p, .introduction ul {
+    color: #fff; /* White color for paragraph and list */
+}
+
+.start-quiz-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-quiz-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.types-image, .intro-image {
+    width: 20%; /* Responsive image width */
+    margin: 20px 0; /* Spacing above and below images */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for images */
+}
